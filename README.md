@@ -20,4 +20,29 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
-## How to run
+```
+## 🚀 How to Run
+Run the main script:
+```bash
+python pancan.py
+```
+This script will:
+
+- Load and preprocess data
+
+- Apply PCA for dimensionality reduction
+
+- Train multiple classifiers
+
+- Evaluate models and save metrics
+
+- Generate plots and XAI explanations using LIME and SHAP
+📊 ## Output
+- ml_performance_balanced.csv, ml_performance_per_class.csv: Evaluation metrics
+
+- plots/: PCA, ROC, SHAP, and LIME visualizations
+ ### Explainable AI (XAI)
+- LIME: Generates instance-level interpretations
+
+- SHAP: Global and per-class feature importance
+
