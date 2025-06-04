@@ -1,0 +1,11 @@
+```text
+pandas
+numpy
+matplotlib
+scikit-learn
+seaborn
+lime
+shap
+imblearn
+selenium
+webdriver-manager
