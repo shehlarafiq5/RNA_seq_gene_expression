@@ -38,7 +38,7 @@ This script will:
 
 - Generate plots and XAI explanations using LIME and SHAP
   
-📊 ### Output
+### 📊 Output
 - ml_performance_balanced.csv, ml_performance_per_class.csv: Evaluation metrics
 
 - plots/: PCA, ROC, SHAP, and LIME visualizations
